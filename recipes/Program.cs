@@ -8,6 +8,7 @@ namespace RecipeManager
         // Main method
         static void Main(string[] args)
         {
+
             // Create a new instance of the Recipe class to manage recipe data
             Recipe recipe = new Recipe();
             // Boolean to check if user exited
