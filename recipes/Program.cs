@@ -69,7 +69,7 @@ namespace RecipeManager
     // Class to manage recipe data and operations
     class Recipe
     {
-        // Private fields to store recipe details
+        // Private fields to store recipe details 
         private string[] ingredients;
         private double[] quantities;
         private string[] units;
