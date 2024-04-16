@@ -17,6 +17,7 @@ namespace RecipeManager
             // While loop to display menu and handle user input
             while (!exit)
             {
+
                 // Display menu options
                 Console.WriteLine("1. Enter recipe details");
                 Console.WriteLine("2. Display recipe");
