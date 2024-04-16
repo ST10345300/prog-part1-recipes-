@@ -85,7 +85,7 @@ namespace RecipeManager
             quantities = new double[numIngredients];
             units = new string[numIngredients];
 
-            // Loop to input details for each ingredient
+            // Loop to input details for each ingredient 
             for (int i = 0; i < numIngredients; i++)
             {
                 Console.WriteLine($"Enter the name of ingredient {i + 1}:");
