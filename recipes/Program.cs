@@ -1,5 +1,5 @@
 ﻿using System;
-
+//this is the main project 
 namespace RecipeManager
 {
     class Program
@@ -7,8 +7,10 @@ namespace RecipeManager
         static void Main(string[] args)
         {
             Recipe recipe = new Recipe();
+            // Boolean to check if user exited
             bool exit = false;
 
+            // While loop to display menu
             while (!exit)
             {
                 Console.WriteLine("1. Enter recipe details");
