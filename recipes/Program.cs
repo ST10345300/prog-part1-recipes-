@@ -28,7 +28,7 @@ namespace RecipeManager
                 Console.WriteLine("Choose an option: ");
 
                 int choice;
-                // Read user input and handle invalid input
+                // Read user input and handle invalid input 
                 if (int.TryParse(Console.ReadLine(), out choice))
                 {
                     switch (choice)
